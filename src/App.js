@@ -8,7 +8,7 @@ function App() {
   const [Item, setItem] = useState("");
   const [error, setError] = useState("");
 
-  const APIKEY = "2b4680e5136c291a8e862f8d3d425433";
+  const APIKEY = "API KEY";
   function weatherData(e) {
     e.preventDefault();
     if (Item === "") {
